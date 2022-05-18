@@ -38,3 +38,30 @@
     border-left: 1px solid white;
     margin-left: 22px;
 }
+
+@media (max-width: 1000px) {
+    .banner {
+        background-size: 200% 100%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .banner {
+        background-size: 200% 100%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .banner {
+        background-size: 200% 100%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .banner {
+        background-size: 200% 100%;
+    }
+}
