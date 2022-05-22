@@ -1,14 +1,11 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
-import Footer from '../components/footer';
-import Navbar from '../components/navbar';
 import Carrusel from '../pages/carousel';
 import Styles from '../styles/home.module.css';
 
 export default function home() {
     return (
         <React.Fragment>
-            <Navbar />
             <div className={`${Styles.contenedor}`}>
                 <header className={`${Styles.banner} d-flex justify-content-center align-items-center`}></header>
                 <main className={Styles.contenedorMain}>
@@ -38,7 +35,6 @@ export default function home() {
                         </Fade>
                     </section>
                 </main>
-                <Footer />
             </div>
         </React.Fragment>
     )

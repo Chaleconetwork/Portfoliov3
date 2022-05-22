@@ -1,14 +1,11 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
-import Footer from '../components/footer';
-import Navbar from '../components/navbar';
 import Skills from '../components/skills';
 import Styles from '../styles/myskills.module.css';
 
 export default function myskills() {
     return (
         <React.Fragment>
-            <Navbar />
             <div className={`${Styles.skills}`}>
                 <div className="container border p-4 mt-5">
                     <Fade cascade='2' direction='down'>
@@ -23,7 +20,6 @@ export default function myskills() {
                     </Fade>
                 </div>
             </div>
-            <Footer />
         </React.Fragment>
     )
 }
