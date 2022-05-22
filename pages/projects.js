@@ -3,13 +3,15 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 import remusis1 from '../assets/proyectosimg/remusis1.png';
 import remusis2 from '../assets/proyectosimg/remusis2.png';
+import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+import Styles from '../styles/projects.module.css';
 
 export default function projects() {
     return (
         <React.Fragment>
             <Navbar />
-            <div className='container mt-4'>
+            <div className={`${Styles.projects} container mt-4`}>
                 <h1 className='text-white'>Sistema de remuneraciones</h1>
                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
                     <div className="carousel-indicators">
@@ -39,8 +41,8 @@ export default function projects() {
                     </button>
                 </div>
                 <h3 className='text-white mt-3'>Diseñado con React js y Django REST</h3>
-
             </div>
+            <Footer />
         </React.Fragment>
     )
 }

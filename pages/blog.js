@@ -4,6 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import llayllayimg from '../assets/img/llayllayimg.png';
 import pseintimg from '../assets/imgrecuerdos/pseint.webp';
 import vbnetimg from '../assets/imgrecuerdos/vbnetimg.jpg';
+import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import Styles from '../styles/blog.module.css';
 
@@ -39,6 +40,7 @@ export default function blog() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, nesciunt. Provident adipisci, amet in at quisquam neque beatae quibusdam labore ex repellendus, odit architecto nam, eum blanditiis fuga. Vero, maxime!
                 </section>
             </div>
+            <Footer />
         </React.Fragment>
     )
 }

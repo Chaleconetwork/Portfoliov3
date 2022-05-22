@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade } from "react-awesome-reveal";
+import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import Carrusel from '../pages/carousel';
 import Styles from '../styles/home.module.css';
@@ -37,14 +38,7 @@ export default function home() {
                         </Fade>
                     </section>
                 </main>
-                {/* <div className={Styles.contenedorDots}>
-                <li><a className="text-white p-2 fs-2 bi bi-github"></a></li>
-                <li><a className="text-white p-2 fs-2 bi bi-linkedin"></a></li>
-                <li><i className={`${Styles.dots} fs-1`}></i></li>
-            </div> */}
-                <footer className={`${Styles.piePagina} d-flex justify-content-center align-items-center`}>
-                    <h3>Diseñado por Chaleco© 2022</h3>
-                </footer>
+                <Footer />
             </div>
         </React.Fragment>
     )

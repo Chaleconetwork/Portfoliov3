@@ -1,12 +1,14 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+import Styles from '../styles/aboutme.module.css';
 
 export default function aboutme() {
     return (
         <React.Fragment>
             <Navbar />
-            <div className="container mt-5">
+            <div className={`${Styles.altura} container mt-5`}>
                 <Fade cascade direction='down'>
                     <h1 className="text-white">Sobre mi</h1>
                 </Fade>
@@ -19,6 +21,7 @@ export default function aboutme() {
                     </p>
                 </Fade>
             </div>
+            <Footer />
         </React.Fragment>
     )
 }
