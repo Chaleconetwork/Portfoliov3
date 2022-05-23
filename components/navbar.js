@@ -37,11 +37,6 @@ export default function navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Contacto</a>
                         </li>
-                        <li className="nav-item">
-                            <Link href="/blog">
-                                <a className="nav-link" href="#">Blog</a>
-                            </Link>
-                        </li>
                     </ul>
                 </div>
             </div>
