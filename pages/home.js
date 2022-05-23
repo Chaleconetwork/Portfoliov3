@@ -16,7 +16,7 @@ export default function home() {
                         <Fade cascade direction='right'>
                             <p>
                                 Hola, soy Israel Cabrera, soy un desarrollador de frontend, me apasiona programar y aprender cosas
-                                nuevas por mi mismo, actualmente estoy aprendiendo Next.js y backend con Django Framework.
+                                nuevas por mi mismo, actualmente estoy aprendiendo Next.js y backend con Django REST Framework.
                                 Mi objetivo es convertirme en un desarrollador FullStack.
                             </p>
                         </Fade>
