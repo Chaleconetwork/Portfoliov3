@@ -3,22 +3,21 @@
     height: 100vh;
 }
 
-.sideright {
-    background-image: url('../assets/img/keyboardsbg.jpg');
-    background-size: 150% 100%;
-    height: 100vh;
-}
-
 .up {
     height: 50vh;
 }
 
 .up h1 {
     font-size: 100px;
+    color: #fff;
+}
+
+.up h1:hover {
+    color: skyblue;
 }
 
 .middle {
-    height: 15vh;
+    height: 10vh;
 }
 
 .down {
@@ -82,7 +81,7 @@
     }
     
     .middle {
-        height: 50vh;
+        height: 30vh;
     }
     
     .down {

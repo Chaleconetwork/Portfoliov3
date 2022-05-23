@@ -6,11 +6,11 @@ import Styles from '../styles/index.module.css';
 export default function index() {
     return (
         <React.Fragment>
-            <div className="row">
-                <div className={`${Styles.sideleft} col-8`}>
+            <div>
+                <div className={`${Styles.sideleft}`}>
                     <div className={`${Styles.up} mt-5 mx-5 d-flex justify-content-center`}>
                         <Fade cascade direction='up' duration={1000} fraction={0}>
-                            <h1 className="text-white">Hola, soy Israel Cabrera</h1>
+                            <h1 className="mt-5">Hola, soy Israel Cabrera</h1>
                         </Fade>
                     </div>
                     <div className={`${Styles.middle} d-flex justify-content-center`}>
@@ -28,9 +28,6 @@ export default function index() {
                             </Link>
                         </Fade>
                     </div>
-
-                </div>
-                <div className={`${Styles.sideright} col-4`}>
 
                 </div>
             </div>
