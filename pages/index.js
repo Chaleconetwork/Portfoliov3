@@ -1,22 +1,14 @@
-import Router from 'next/router';
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Fade } from "react-awesome-reveal";
 import Progressbar from '../components/progressbar';
+import Loader from '../pages/loader';
 import Styles from '../styles/index.module.css';
 
 export default function index() {
 
-    const [loading, setLoading] = useState(false);
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(
-                Router.push('/home')
-            )
-        }, 8000);
-    }, [])
-
     return (
         <React.Fragment>
+            <Loader />
             <div>
                 <div className={`${Styles.sideleft}`}>
                     <div className={`${Styles.up} mt-5 mx-5 d-flex justify-content-center`}>
