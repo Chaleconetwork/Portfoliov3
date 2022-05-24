@@ -12,7 +12,7 @@ export default function index() {
             setLoading(
                 Router.push('/home')
             )
-        }, 7000);
+        }, 8000);
     }, [])
 
     return (
