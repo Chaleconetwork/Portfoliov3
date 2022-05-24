@@ -16,8 +16,8 @@ export default function myskills() {
                         <Skills nombre='Python' porcentaje='70' barra={Styles.python} />
                         <Skills nombre='Bootstrap' porcentaje='60' barra={Styles.bootstrapp} />
                         <Skills nombre='CSS3' porcentaje='50' barra={Styles.css3} />
+                        <Skills nombre='JavaScript' porcentaje='50' barra={Styles.jscript} />
                         <Skills nombre='React js/Next js' porcentaje='50' barra={Styles.reactjs} />
-                        <Skills nombre='JavaScript' porcentaje='40' barra={Styles.jscript} />
                     </Fade>
                 </div>
             </div>

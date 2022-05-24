@@ -62,7 +62,7 @@
 }
 
 .jscript::before {
-    width: 40%;
+    width: 50%;
     animation: animationpython 2s linear;
     box-shadow: 0 2px 10px 3px #00e8ff;
 }

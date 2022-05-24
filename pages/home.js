@@ -10,10 +10,10 @@ export default function home() {
                 <header className={`${Styles.banner} d-flex justify-content-center align-items-center`}></header>
                 <main className={Styles.contenedorMain}>
                     <section className='container mt-5 text-white'>
-                        <Fade cascade direction='left'>
+                        <Fade triggerOnce cascade direction='left'>
                             <h1>Bienvenido a mi portafolio</h1>
                         </Fade>
-                        <Fade cascade direction='right'>
+                        <Fade triggerOnce cascade direction='right'>
                             <p>
                                 Hola, soy Israel Cabrera, soy un desarrollador de frontend, me apasiona programar y aprender cosas
                                 nuevas por mi mismo, actualmente estoy aprendiendo Next.js y backend con Django REST Framework.
@@ -22,14 +22,14 @@ export default function home() {
                         </Fade>
                     </section>
                     <section className='container text-white'>
-                        <Fade cascade='2' direction='left'>
+                        <Fade triggerOnce cascade='2' direction='left'>
                             <div>
                                 <button className={Styles.botoncv}>DESCARGAR CV</button>
                             </div>
                         </Fade>
                     </section>
                     <section className='container mt-5'>
-                        <Fade cascade='2' direction='left'>
+                        <Fade triggerOnce cascade='2' direction='left'>
                             <h3 className='text-white'>Proyectos recientes</h3>
                             <Carrusel />
                         </Fade>

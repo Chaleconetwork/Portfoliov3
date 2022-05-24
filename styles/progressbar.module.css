@@ -1,0 +1,51 @@
+.skills {
+    height: 80vh;
+}
+
+.line {
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bars {
+    background-color: lightgrey;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.bars::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #00e8ff;
+    border-radius: 10px;
+}
+
+.progress::before {
+    width: 100%;
+    animation: animationProgress 7s linear;
+    box-shadow: 0 2px 10px 3px #00e8ff;
+}
+
+@keyframes animationProgress {
+    from {
+        width: 0%
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
