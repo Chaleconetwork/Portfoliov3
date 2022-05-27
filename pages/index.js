@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import Progressbar from '../components/progressbar';
 import Styles from '../styles/index.module.css';
 
-export default function index() {
+export default function Index() {
 
     const [loading, setLoading] = useState(false);
     useEffect(() => {
